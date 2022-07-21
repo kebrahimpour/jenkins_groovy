@@ -1,4 +1,9 @@
 node {
+  
+  stage('SCM') {
+    echo 'cloning repository ...'
+  }
+  
   stage('Build') {
     echo 'Building ...'
   }
